@@ -1,0 +1,9 @@
+pyuic5 -x ArrocesLlopis.ui -o ArrocesLlopis.py
+pyuic5 -x ConfigurationDialog.ui -o ConfigurationDialog.py
+pyuic5 -x Customers.ui -o Customers.py
+pyuic5 -x OrderDialog.ui -o OrderDialog.py
+pyuic5 -x ProductDialog.ui -o ProductDialog.py
+pyuic5 -x SearchCustomerdialog.ui -o SearchCustomerdialog.py
+pyuic5 -x SearchOrderdialog.ui -o SearchOrderdialog.py
+
+pyrcc5 -o resources_rc.py ./resources/resources.qrc

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>225</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Descripcion de Pedidos:</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="2">
+       <widget class="QLabel" name="priceBLabel">
+        <property name="text">
+         <string>Precio B</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="orderiDLabel">
+        <property name="text">
+         <string>ID Pedido</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="statusLabel">
+        <property name="text">
+         <string>Estado</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="customnerLabel">
+        <property name="text">
+         <string>Cliente ID</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="deliveryTimeLabel">
+        <property name="text">
+         <string>Hora Entrega</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="priceBEdit"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="priceALabel">
+        <property name="text">
+         <string>Precia A</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="orderIDEdit"/>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="dateBLabel">
+        <property name="text">
+         <string>Fecha B</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="dateALabel">
+        <property name="text">
+         <string>Fecha A</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="customerIDEdit"/>
+      </item>
+      <item row="2" column="4">
+       <widget class="QComboBox" name="deliveryTimeComboBox"/>
+      </item>
+      <item row="4" column="1">
+       <widget class="QDateEdit" name="dateAEdit"/>
+      </item>
+      <item row="4" column="4">
+       <widget class="QDateEdit" name="dateBEdit"/>
+      </item>
+      <item row="0" column="4">
+       <widget class="QComboBox" name="statusComboBox"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="priceAEdit"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="searchButton">
+       <property name="text">
+        <string>Buscar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>Cancelar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
