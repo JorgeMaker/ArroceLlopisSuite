@@ -8,4 +8,4 @@ una aplicación desarrollada para la gestión de la base de datos de clientes, p
 
 ArrocesLLopisApp: Se trata de la aplicación de escritorio, está desarrollada utilizando **PyQt5** y es un cliente que consume una API RestFull.
 
-ArrocesLlopisRestAPI: Se trata de una aplicación servidor que ofrece una interfaz API Rest desarrollada con DJang APIRest Framework que permite realizar operaciones CRUD sobre datos de cientes, productos y servicios guardados en un abase de datos 
+ArrocesLlopisRestAPI: Se trata de una aplicación servidor que ofrece una interfaz API Rest desarrollada con Django APIRest Framework que permite realizar operaciones CRUD sobre datos de cientes, productos y servicios guardados en un abase de datos 
